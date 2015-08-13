@@ -1,0 +1,17 @@
+{
+    "name": "cinefavela/seguranca",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Ledo de Tulio",
+            "email": "ricardo.tulio@fatec.sp.gov.br"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["bootstrap.php"],
+        "psr-4": {
+            "CineFavela\\Seguranca\\": [ "src/", "tests/" ]
+        }
+    }
+}
