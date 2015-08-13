@@ -13,7 +13,7 @@ class Module extends \CineFavela\Core\Module\Module
     {
         return array(
             "templateDir" => array(
-                APPLICATION_PATH . "/modules/" . ucfirst($this->getName()) . "/template/"
+                dirname(realpath(__FILE__)) . "/../template/"
             )
         );
     }
