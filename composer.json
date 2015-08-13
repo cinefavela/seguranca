@@ -7,7 +7,20 @@
             "email": "ricardo.tulio@fatec.sp.gov.br"
         }
     ],
-    "require": {},
+	"repositories: ": [
+		{
+	        "type": "vcs",
+	        "url": "https://github.com/cinefavela/core"
+	    },
+		{
+	        "type": "vcs",
+	        "url": "https://github.com/cinefavela/usuario"
+	    }	    
+	],
+    "require": {
+    	"cinefavela/core": "dev-master",
+    	"cinefavela/usuario": "dev-master"
+    },
     "autoload": {
         "files": ["bootstrap.php"],
         "psr-4": {
